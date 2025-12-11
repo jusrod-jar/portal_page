@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+#apostles-box {
+background-image: url('images/christus.webp');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 56%;
+border: 10px solid black;
+border-radius: 30px;
+max-width: 80%;
+text-align: center;
+margin: 30px auto;
+}
+
+#apostles-box h1 {
+font-weight: normal;
+font-size: 3em;
+}
+
+#apostles-box h2 {
+font-weight: normal;
+font-size: 2em;
+}
+
+#first-presidency-box {
+    margin: 30px auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#first-presidency-box img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body {
+background-color: white;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+border: 9px solid white;
+border-radius: 50%;
+}
+
+#quorum-twelve-box {
+max-width: 640px;
+display: grid;
+grid-template-columns: auto auto auto auto;
+margin: auto;
+justify-items: center;
+row-gap: 2em;
+padding-bottom: 3em;
+}
+
+img.large-image {
+width: 180px;
+height: 180px;
+}
+img.medium-image {
+width: 150px;
+height: 165px;
+}
+img.small-image {
+width: 130px;
+height: 140px;
+}
+
+img.large-image:hover {
+    border-color: aqua;
+}

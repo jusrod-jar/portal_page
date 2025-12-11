@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFECD7;
+    text-align: center;
+    max-width: 29.5%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+#prophet-card {
+    background-color: #008db1;
+    color: #FFFFFE;
+    border: 5px solid #004e63;
+    border-radius: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#prophet-card h1 {
+    font-weight: normal;
+    font-size: 2.7em;
+    margin-bottom: 0;
+}
+
+#prophet-card ul {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.35em;
+}
+
+#prophet-card li {
+    padding: 0;
+    text-align: left;
+    padding: 3px;
+}
+
+#prophet-card p {
+    margin: auto;
+    text-align: center;
+    max-width: 80%;
+    padding-bottom: 30px;
+    color: #FFD783;
+    font-family: "Brush Script MT", "Nanum Brush Script", cursive;
+}
+
+#img img {
+    border: 5px solid white;
+}
+
+#subtitle {
+    margin: auto;
+    text-align: center;
+    max-width: 80%;
+    padding-bottom: 5px;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+#subtitle a {
+    text-decoration: none;
+    color: #91E4FB;
+}
+
+#subtitle a:hover {
+    text-decoration: underline;
+    color: #000080;
+}
